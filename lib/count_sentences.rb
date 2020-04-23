@@ -30,7 +30,7 @@ if self.end_with?("!")
 sentence= self.split(/[.!?]/)
 if sentence == sentence.empty?
   sentence.delete(" ")
-  sentence.length
+  sentence.count
   end
 end
 end
