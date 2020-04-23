@@ -31,4 +31,3 @@ sentence= self.split(/[.!?]/)
 sentence.count
   end
 end
-end
