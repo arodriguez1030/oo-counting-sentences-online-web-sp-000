@@ -28,6 +28,5 @@ if self.end_with?("!")
 
   def count_sentences
 sentence= self.split(/[.!?]/).grep(/S/).count
-sentence.count
   end
 end
