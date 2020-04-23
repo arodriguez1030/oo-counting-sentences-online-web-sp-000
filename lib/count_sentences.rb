@@ -28,5 +28,7 @@ if self.end_with?("!")
 
   def count_sentences
 self.split(/. ! ?/)
+binding pry
+end
   end
 end
